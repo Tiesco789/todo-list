@@ -1,0 +1,35 @@
+.task_form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.todo-list {
+  .todo-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+    margin: 0 0 1rem 0;
+    padding: 2rem 1.5rem;
+    border-radius: 8px;
+    border: 1px solid rgba(9, 105, 85, 0.404);
+    background-color: rgb(14, 41, 41);
+
+    button {
+      cursor: pointer;
+      font-size: 1.6rem;
+      float: right;
+      margin: 0 .5rem;
+    }
+
+    span {
+      font-size: 1.4rem;
+    }
+
+    .checked {
+      text-decoration: line-through;
+      color: rgba(45, 93, 133, 0.404);
+    }
+  }
+}
